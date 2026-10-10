@@ -1,4 +1,10 @@
 #!/bin/bash
+# ==============================================================================
+# [DEPRECATED]
+# This script uses the legacy New Relic REST API v2 deployment markers endpoint,
+# which is scheduled for end-of-life (EOL) on July 31, 2027.
+# For new setups, please use 'record_change_tracking.sh' (Change Tracking / NerdGraph API).
+# ==============================================================================
 
 #parameters
 api_key="Admin user API key" #Required
